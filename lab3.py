@@ -1,6 +1,8 @@
 isLoggedIn = False
 isGoldMember = True
 
+print(f"User is logged in: {isLoggedIn}\nUser is gold member: {isGoldMember}")
+
 if isLoggedIn == True:
     print("User is logged in")
     if isGoldMember == True:
