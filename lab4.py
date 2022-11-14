@@ -1,4 +1,4 @@
-gemList = ["garnet", "bizmuth", "ruby", "sapphire", "diamond", "peridot", "spinel"]
+gemList = ["garnet", "bismuth", "ruby", "sapphire", "diamond", "peridot", "spinel"]
 
 print("Starting for loop")
 for gem in gemList:
