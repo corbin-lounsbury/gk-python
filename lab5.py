@@ -1,5 +1,7 @@
 # instructions
-# 1. Using deque, create a stack that adds the first 6 letters alphabetically (use appen)
+# 1. Using deque, create a stack that adds the first 6 letters alphabetically (use appendleft() )
+# 2. Remove each letter from the stack (use popleft() and print() )
+# 3. When there are no more letters, print "No more letters in the stack".
 
 from collections import deque
 
