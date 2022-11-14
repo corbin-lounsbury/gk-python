@@ -11,6 +11,7 @@ letterStack = deque()
 
 print("Adding letters")
 for letter in letterList:
+    print(f"Adding {letter}")
     letterStack.appendleft(letter)
     print(letterStack)
 
@@ -18,8 +19,9 @@ print("Removing letters")
 
 i=0
 while i < len(letterStack):
+    print(f"Removing {letterStack[i]}")
     letterStack.popleft()
     if len(letterStack) > 0:
         print(letterStack)
     else:
-        print(" No more letters in the stack!")
+        print("No more letters in the stack!")
