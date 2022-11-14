@@ -1,3 +1,10 @@
+# Instructions
+# 1. Create a list that contains anything you wish, plust the list item "diamond" anywhere you wish to place it.
+# 2. Loop through the list and print every value.
+# 3. If the program comes across "diamond", have it print "Shine bright like a diamond".
+# 4. Using the same list, create a while loop that keeps looping and printing values until it reaches "diamond".
+# 5. Have your program break out of the list and print "Diamonds are forever". 
+
 gemList = ["garnet", "bismuth", "ruby", "sapphire", "diamond", "peridot", "spinel"]
 
 print("Starting for loop")
