@@ -8,7 +8,7 @@ for gem in gemList:
 
 print("Starting while loop")
 i = 0
-while True:
+while i < len(gemList):
     print(f"The current gem is {gemList[i]}")
     if gemList[i] == "diamond":
         break
