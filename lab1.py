@@ -25,6 +25,7 @@ print(mySet)
 print("Adding data")
 myList.append(4)
 # skipped attempting to add to tuple, it is an immutable data structure
+# On review, the intent was to create a new tuple with the contents of the old tuple and the new data
 myDict["4"]="four"
 mySet.add(4)
 
