@@ -1,3 +1,6 @@
+# instructions
+# 1. Using deque, create a stack that adds the first 6 letters alphabetically (use appen)
+
 from collections import deque
 
 letterList = ["A", "B", "C", "D", "E", "F", "G"]
@@ -6,7 +9,7 @@ letterStack = deque()
 
 print("Adding letters")
 for letter in letterList:
-    letterStack.append(letter)
+    letterStack.appendleft(letter)
     print(letterStack)
 
 print("Removing letters")
