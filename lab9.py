@@ -1,3 +1,9 @@
+# Instructions
+# 1. Create a closure that takes one argument and returns and squares it
+#       a. Create your outer function
+#       b. Create your inner function
+#       c. Create your calling function
+
 number = int(input("Please enter a number: "))
 
 def outerFunc(outerVar):
