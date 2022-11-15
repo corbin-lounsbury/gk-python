@@ -1,5 +1,3 @@
-
-
 import re
 
 # 1. Write a program to extract all the numbers from "hello 12 hi 89 how 34"
