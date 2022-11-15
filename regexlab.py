@@ -22,6 +22,7 @@ replace2O = re.sub(r'o', "2", wholeString, 1)
 print(replace2O)
 
 # 4. Write a program to return the first occurrence of a 2-digit number in the following string "hello 12 hi 19 how 14"
-findNum = re.search(r"[0-9][0-9]", wholeString)
 
-print(findNum)
+findNum = re.search(r"[0-9]{2}", wholeString)
+
+print(findNum.group())
