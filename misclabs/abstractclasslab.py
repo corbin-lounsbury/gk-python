@@ -16,15 +16,15 @@ class Shape(ABC):
         pass
 
 class Square(Shape):
-    def whatMake(self):
+    def howManySides(self):
         print("Squares have 4 sides")
 
 class Dodecagon(Shape):
-    def whatMake(self):
+    def howManySides(self):
         print("Dodecagons have 12 sides")
 
 class Circle(Shape):
-    def whatMake(self):
+    def howManySides(self):
         print("Circles don't have any sides")
 
 shape1 = Square()
