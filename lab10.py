@@ -30,9 +30,21 @@ class Car:
     def calculateAge(thisYear, carYear):
         print(f"This car is {(thisYear-carYear)} years old")
 
+    @staticmethod
+    def calculateDepreciation(thisYear, carYear, msrp):
+        firstYearDeprec = msrp * .20
+        firstYearVlaue = msrp - firstYearDeprec
+        deprecValue = .15
+        numYears = (thisYear-carYear) - 1
+        deprecTotal = firstYearVlaue - (firstYearVlaue * (numYears * deprecValue))
+
+        print(f"This car's estimated value after {(thisYear-carYear)} years depreciation is {deprecTotal}")
+
+
 
 thisCar = Car("Ford", "F150", 2019, "white", 60000)
 
 thisCar.yearMade()
 
 thisCar.calculateAge(2022, thisCar.year)
+thisCar.calculateDepreciation(2022, thisCar.year, thisCar.msrp)
