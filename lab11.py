@@ -2,10 +2,11 @@ class Human:
     def __init__(self, name):
         self.name = name
         self.health = 100
-        self.isMammal = True
+        self.animalClass = "Mammal"
     def displayStats(self):
         print("Name: " + self.name)
-        print("Health: " + str(self.health))
+        print(f"Health: {self.health}")
+        print(f"Class in the animal Kingdom: {self.animalClass}")
 
 class Student(Human):
     def __init__(self, name):
