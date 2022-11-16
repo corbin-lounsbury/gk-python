@@ -42,9 +42,9 @@ class Car:
 
 
 
-thisCar = Car("Ford", "F150", 2019, "white", 60000)
+thisCar = Car("Ford", "F150", 2019, "white", 59999)
 
-print(f"This is a {thisCar.color} {thisCar.make} {thisCar.model}. Original price when new was {thisCar.msrp}")
+print(f"This is a {thisCar.color} {thisCar.make} {thisCar.model}. Original price when new was {thisCar.msrp:.2f}")
 
 thisCar.yearMade()
 
