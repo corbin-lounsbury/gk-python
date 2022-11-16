@@ -30,8 +30,8 @@ class Circle(Shape):
 shape1 = Square()
 shape1.howManySides()
 
-shape2 = Square()
+shape2 = Dodecagon()
 shape2.howManySides()
 
-shape3 = Square()
+shape3 = Circle()
 shape3.howManySides()
