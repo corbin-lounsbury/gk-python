@@ -19,3 +19,29 @@ for num in myGenerator:
     next(myGenerator)
 
 # 4. Write a program to create your own function to implement decorator and closure
+
+# Decorator
+def squareDec(inputFunc):
+    def innerFunc():
+        squareList = [num**2 for num in list1]
+        print(squareList)
+        inputFunc()
+    return innerFunc
+
+@squareDec
+def SquareFunc():
+    print("Squaring the list inside a decorator")
+
+SquareFunc()
+
+#closure
+def outerFunc(outerVar):
+    def innerFunc():
+        print("Printing evens again in a closure")
+        evenNums = filter(lambda num: num % 2 == 0, outerVar)
+        print(list(evenNums))
+    return innerFunc
+
+callerFunc = outerFunc(list1)
+
+callerFunc()
