@@ -1,28 +1,37 @@
+# Instructions
+
+# 1. Write a program to implement abastract base class
+
+# 2. Create an abstract class with an abstract method
+
+# 3. Create separate classes for different shares and print the number of sides
+
+# 4. Print the results
+
 from abc import ABC, abstractclassmethod
 
-class Car(ABC):
+class Shape(ABC):
     @abstractclassmethod
-    def whatMake(self):
+    def howManySides(self):
         pass
 
-class Mustang(Car):
+class Square(Shape):
     def whatMake(self):
-        print("Ford makes this")
+        print("Squares have 4 sides")
 
-class Corvette(Car):
+class Dodecagon(Shape):
     def whatMake(self):
-        print("Chevy makes this")
+        print("Dodecagons have 12 sides")
 
-class Aventador(Car):
+class Circle(Shape):
     def whatMake(self):
-        print("Lamborghini makes this")
+        print("Circles don't have any sides")
 
+shape1 = Square()
+shape1.howManySides()
 
-car1 = Mustang()
-car1.whatMake()
+shape2 = Square()
+shape2.howManySides()
 
-car2 = Corvette()
-car2.whatMake()
-
-car3 = Aventador()
-car3.whatMake()
+shape3 = Square()
+shape3.howManySides()
