@@ -1,8 +1,22 @@
+# Instructions
+
+# 1. Create superclass Human
+
+# 2. Create subclass Student
+
+# 3. Have Student inherit from superclass Human
+
+# 4. Create an instance 
+
+# 5. Print the results
+
+
 class Human:
     def __init__(self, name):
         self.name = name
         self.health = 100
         self.animalClass = "Mammal"
+    
     def displayStats(self):
         print("Name: " + self.name)
         print(f"Health: {self.health}")
