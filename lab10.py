@@ -44,6 +44,8 @@ class Car:
 
 thisCar = Car("Ford", "F150", 2019, "white", 60000)
 
+print(f"This is a {thisCar.color} {thisCar.make} {thisCar.model}. Original price when new was {thisCar.msrp}")
+
 thisCar.yearMade()
 
 thisCar.calculateAge(2022, thisCar.year)
