@@ -38,7 +38,7 @@ class Car:
         numYears = (thisYear-carYear) - 1
         deprecTotal = firstYearVlaue - (firstYearVlaue * (numYears * deprecValue))
 
-        print(f"This car's estimated value after {(thisYear-carYear)} years depreciation is {deprecTotal}")
+        print(f"This car's estimated value after {(thisYear-carYear)} years depreciation is ${deprecTotal:.2f}")
 
 
 
