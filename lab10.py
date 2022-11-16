@@ -24,7 +24,7 @@ class Car:
         self.msrp = float(msrp)
 
     def yearMade(self):
-        print (f"This care was made in {self.year}")
+        print (f"This car was made in {self.year}")
 
     @staticmethod
     def calculateAge(thisYear, carYear):
