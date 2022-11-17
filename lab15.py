@@ -1,3 +1,9 @@
+# instructions
+# 1. Write a program to implement threading
+# 2. Create two functions with parameters to perform certain actions and print
+# 3. Create two threads for calling functions and pass arguments
+# 4. Run the threads
+
 import random
 import threading
 import time
