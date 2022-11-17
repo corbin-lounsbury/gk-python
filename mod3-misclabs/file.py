@@ -1,5 +1,5 @@
 # Instructions
-# 1. Write a program to look through each linke in the file. 
+# 1. Write a program to look through each line in the file. 
 # 2. Create a file
 # 3. Check if any line starts with "hi", if so, print hello in the console, else print the line
 
