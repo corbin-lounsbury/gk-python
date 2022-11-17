@@ -1,3 +1,9 @@
+# Instructions
+# 1. Write a program to implement dataclasses.
+# 2. Add fields to add data through objects in a class
+# 3. Use dict attribute to print the values of that object as a dictionary
+# 4. Also, use make_dataclass method to implement the same task
+
 from dataclasses import dataclass, make_dataclass
 
 @dataclass
