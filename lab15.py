@@ -1,3 +1,4 @@
+import random
 import threading
 import time
 
@@ -9,8 +10,10 @@ def waitSeconds(seconds):
 def interrupt(phrase):
     print(f"I jumped in to say {phrase}")
 
-thread1 = threading.Thread(target=waitSeconds, args=(3,))
-thread2 = threading.Thread(target=interrupt, args=("NEE!",))
+randNum = random.randint(1,5)
+
+thread1 = threading.Thread(target=waitSeconds, args=(randNum,))
+thread2 = threading.Thread(target=interrupt, args=("we are the knights who say \n NEE!",))
 
 thread1.start()
 thread2.start()
