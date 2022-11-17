@@ -34,4 +34,4 @@ customer1 = Customer("Corbin", 32, "Janitor", 8675309)
 
 customer2 = Customer("Mike", 57, "CPA", 687564)
 
-inspectThings(os,Customer,Customer.printStats,os.chmod)
+inspectThings(os,Customer,Customer.printStats,os.chmod, inspectThings)
