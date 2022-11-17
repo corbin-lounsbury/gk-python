@@ -1,13 +1,8 @@
 # Instructions
-
 # 1. Create superclass Human
-
 # 2. Create subclass Student
-
 # 3. Have Student inherit from superclass Human
-
 # 4. Create an instance 
-
 # 5. Print the results
 
 

@@ -1,11 +1,7 @@
 # Instructions
-
 # 1. Write a program to implement abastract base class
-
 # 2. Create an abstract class with an abstract method
-
 # 3. Create separate classes for different shares and print the number of sides
-
 # 4. Print the results
 
 from abc import ABC, abstractclassmethod

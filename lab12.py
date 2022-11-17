@@ -1,9 +1,6 @@
 # Instructions
-
 # 1. Create a local method
-
 # 2. Attempt to change the local() method
-
 # 3. Print the results
 
 def powerHouse():

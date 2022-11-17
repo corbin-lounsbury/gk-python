@@ -1,13 +1,8 @@
 # Instructions
-
 # 1. Create a class customer
-
 # 2. Create class attributes
-
 # 3. Create object attributes
-
 # 4. Instantiate an object with its unique attributes
-
 # 5. Print the results
 
 class Customer:

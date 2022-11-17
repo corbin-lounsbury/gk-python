@@ -1,17 +1,10 @@
 # Instructions
-
 # 1. Create the class Car
-
 # 2. Add a class/static variable
-
 # 3. Create a class/static attributes
-
 # 4. Create a class method
-
 # 5. create a static method using @staticmethod
-
 # 6. Instantiate an object
-
 # 7. Print the static variable, class method, and static method of an object
 
 
