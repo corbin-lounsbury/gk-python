@@ -1,10 +1,10 @@
-# Instructions
-# Use Counter on your name
+'''# Instructions
+# Use Counter on your name'''
 
 from collections import Counter
 
-name = str(input("Please enter your name: "))
+NAME = str(input("Please enter your name: "))
 
-nameCounter = Counter(name)
+nameCounter = Counter(NAME)
 
 print(nameCounter)
